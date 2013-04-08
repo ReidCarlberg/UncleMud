@@ -1,0 +1,12 @@
+Heroku Config Variable Template
+
+Paste your values into the command below, then copy and paste the entire line into your command prompt.
+
+heroku config:add client_id=YOUR_LONG_CLIENT_ID redirect_uri=https://YOUR_HEROKU_APP/#/callback proxy_url=https://YOUR_HEROKU_APP/proxy.php?mode=native
+
+Example:
+
+heroku config:add client_id=3MVG9y6x0357HlefwuOOB3c0LW6ATi5jvsxiqB2K5WzRGAAsR1gBaT06RZmp0LAyUX4ExQqeH3dQPZcoa2A.s redirect_uri=https://murmuring-sands-5964.herokuapp.com/#/callback proxy_url=https://murmuring-sands-5964.herokuapp.com/proxy.php?mode=native
+
+
+
